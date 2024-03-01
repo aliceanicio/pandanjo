@@ -1,0 +1,21 @@
+.text-headline {
+    display: flex;
+    gap: 24px
+}
+
+.headline {
+    font-weight: 400;
+    font-size: 24px;
+    color: #7A306C;
+    border-bottom: 1px solid #7a306C;
+}
+
+.second-headline {
+    font-weight: 400;
+    font-size: 24px;
+    color: #9C9C9C;
+}
+
+.text-content {
+    width: 822px;
+}
