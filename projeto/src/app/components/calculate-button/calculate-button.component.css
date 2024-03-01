@@ -1,0 +1,23 @@
+.calculate {
+    width: 86px;
+    height: 31px;
+    border: 1px solid #0C1B33;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.calculate:hover {
+    cursor: pointer;
+    transition: all .2s ease-in;
+    background-color: #FFEAFB;
+}
+
+.calculate:active {
+    background-color: #7A306C;
+    color: #FFEAFB;
+    border: 1px solid #FFEAFB;
+}

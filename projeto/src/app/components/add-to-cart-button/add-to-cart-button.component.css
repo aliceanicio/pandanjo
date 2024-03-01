@@ -12,6 +12,17 @@
 
 }
 
+.add-to-cart:hover {
+    cursor: pointer;
+    transition: all .2s ease-in;
+    background-color: #9b4e8d;
+}
+
+.add-to-cart:active {
+    background-color: #501345;
+
+}
+
 img {
     width: 25px;
     display: inline-block;
