@@ -9,3 +9,9 @@ a:focus {
     font-weight: 500;
     color: #7A306C;
 }
+
+.path {
+    padding-top: 34px;
+    padding-left: 272px;
+    gap: 8px;
+}
