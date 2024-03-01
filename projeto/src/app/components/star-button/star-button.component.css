@@ -1,0 +1,9 @@
+.star img {
+    width: 16px;
+    height: 16px;
+}
+
+img:hover {
+    cursor: pointer;
+    transition: all .2s ease-in;
+}

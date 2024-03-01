@@ -1,0 +1,9 @@
+.heart img {
+    width: 30px;
+    height: 30px;
+}
+
+img:hover {
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
