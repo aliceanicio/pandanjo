@@ -24,3 +24,8 @@ a:focus {
     vertical-align: middle;
     padding: 0 8px;
 }
+
+.active {
+    font-weight: 500;
+    color: #7A306C;
+}
