@@ -1,0 +1,21 @@
+.add-to-cart {
+    width: 302.19px;
+    height: 46px;
+    background-color: #7A306C;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: #FFEAFB;
+    font-size: 20px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+img {
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+
+}
