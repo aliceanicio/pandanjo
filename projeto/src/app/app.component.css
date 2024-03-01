@@ -3,6 +3,8 @@
     font-size: 16px;
     color: #0C1B33;
     text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 a:focus {
@@ -14,4 +16,11 @@ a:focus {
     padding-top: 34px;
     padding-left: 272px;
     gap: 8px;
+}
+
+.seta-direita {
+    width: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 8px;
 }
