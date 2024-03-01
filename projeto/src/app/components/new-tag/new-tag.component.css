@@ -1,0 +1,11 @@
+.new {
+    width: 30px;
+    height: 15px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    background-color: #DBFE87;
+    text-align: center;
+    font-weight: 400;
+    color: #7A306C;
+    font-size: 12px;
+}

@@ -11,6 +11,8 @@ import { AddToCartButtonComponent } from './components/add-to-cart-button/add-to
 import { CalculateButtonComponent } from './components/calculate-button/calculate-button.component';
 import { HeartButtonComponent } from './components/heart-button/heart-button.component';
 import { StarButtonComponent } from './components/star-button/star-button.component';
+import { NewTagComponent } from './components/new-tag/new-tag.component';
+import { OffTagComponent } from './components/off-tag/off-tag.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { StarButtonComponent } from './components/star-button/star-button.compon
     CalculateButtonComponent,
     HeartButtonComponent,
     StarButtonComponent,
+    NewTagComponent,
+    OffTagComponent,
   ],
   imports: [
     BrowserModule,
