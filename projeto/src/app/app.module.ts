@@ -14,6 +14,8 @@ import { StarButtonComponent } from './components/star-button/star-button.compon
 import { NewTagComponent } from './components/new-tag/new-tag.component';
 import { OffTagComponent } from './components/off-tag/off-tag.component';
 import { CarouselItemComponent } from './components/carousel-item/carousel-item.component';
+import { SizeButtonComponent } from './components/size-button/size-button.component';
+import { ColorButtonComponent } from './components/color-button/color-button.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { CarouselItemComponent } from './components/carousel-item/carousel-item.
     NewTagComponent,
     OffTagComponent,
     CarouselItemComponent,
+    SizeButtonComponent,
+    ColorButtonComponent,
   ],
   imports: [
     BrowserModule,

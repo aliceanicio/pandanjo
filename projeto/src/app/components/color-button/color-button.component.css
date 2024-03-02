@@ -1,0 +1,27 @@
+.color {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 100%;
+}
+
+.color:hover {
+    cursor: pointer;
+}
+
+.color-selector {
+    display: flex;
+    width: 9rem;
+    justify-content: space-between;
+}
+
+#color-1 {
+    background-color: #014188;
+}
+
+#color-2 {
+    background-color: #9B4D04;
+}
+
+#color-3 {
+    background-color: #811BBF;
+}
