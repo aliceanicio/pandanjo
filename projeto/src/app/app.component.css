@@ -13,6 +13,7 @@ a:focus {
 }
 
 .path {
+    display: block;
     width: fit-content;
     padding-top: 34px;
     padding-left: 272px;
