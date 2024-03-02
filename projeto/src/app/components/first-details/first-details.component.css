@@ -1,0 +1,127 @@
+.img-1,
+.img-2,
+.img-3 {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+.carousel {
+    padding: 0 1.2rem 0 3rem;
+    width: fit-content;
+}
+
+.focus {
+    width: fit-content;
+}
+
+.img-focus {
+    width: 449px;
+    padding-right: 2.6rem;
+}
+
+.first-details {
+    display: flex;
+    width: fit-content;
+}
+
+.rating {
+    display: flex;
+}
+
+.price {
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    width: fit-content;
+    height: 3.5rem;
+}
+
+h1 {
+    color: #0C1B33;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9C9C9C;
+}
+
+#ref {
+    font-size: 16px;
+    color: #9C9C9C;
+    font-weight: 300;
+}
+
+.selector {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C1B33;
+}
+
+.urgent {
+    font-size: 12px;
+    font-weight: 400;
+    color: #E30E41;
+    margin-bottom: 1.5rem;
+}
+
+.old-price {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9C9C9C;
+    align-self: center;
+    text-decoration: line-through;
+    padding-right: 0.5rem;
+}
+
+.new-price {
+    font-size: 32px;
+    font-weight: 400;
+    color: #0C1B33;
+    align-self: center;
+}
+
+.payment-info {
+    font-size: 12px;
+    font-weight: 300;
+    color: #0C1B33;
+    margin-top: 0;
+}
+
+.shipping {
+    font-size: 12px;
+    font-weight: 300;
+    color: #0C1B33;
+}
+
+.dropdown {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C1B33;
+    width: fit-content;
+}
+
+.dropdown-img {
+    width: 10px;
+    height: fit-content;
+    padding: 0 0.3rem 0 5rem;
+    align-self: center;
+}
+
+.first-item,
+.second-item {
+    display: flex;
+    align-self: center;
+    border-bottom: 1px solid #9C9C9C;
+    justify-content: space-between;
+}
+
+.payment {
+    display: flex;
+}

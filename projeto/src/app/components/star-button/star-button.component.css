@@ -1,6 +1,7 @@
 .star img {
     width: 16px;
     height: 16px;
+    padding-right: 0.5rem;
 }
 
 img:hover {
