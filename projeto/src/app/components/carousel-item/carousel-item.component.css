@@ -1,6 +1,6 @@
 .carousel-items {
-    width: 1236px;
-    height: 406px;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     gap: 16px;
     text-align: center;

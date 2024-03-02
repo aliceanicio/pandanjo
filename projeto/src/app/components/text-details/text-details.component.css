@@ -1,3 +1,7 @@
+.text-details {
+    padding-left: 3rem;
+}
+
 .text-headline {
     display: flex;
     gap: 24px
