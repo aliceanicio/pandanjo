@@ -1,7 +1,7 @@
 .img-1,
 .img-2,
 .img-3 {
-    width: 170px;
+    width: 10.625rem;
     display: flex;
     flex-direction: column;
     padding-bottom: 16px;
@@ -17,7 +17,7 @@
 }
 
 .img-focus {
-    width: 449px;
+    width: 28.063rem;
     padding-right: 2.6rem;
 }
 
