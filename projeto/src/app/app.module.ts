@@ -13,6 +13,7 @@ import { HeartButtonComponent } from './components/heart-button/heart-button.com
 import { StarButtonComponent } from './components/star-button/star-button.component';
 import { NewTagComponent } from './components/new-tag/new-tag.component';
 import { OffTagComponent } from './components/off-tag/off-tag.component';
+import { CarouselItemComponent } from './components/carousel-item/carousel-item.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { OffTagComponent } from './components/off-tag/off-tag.component';
     StarButtonComponent,
     NewTagComponent,
     OffTagComponent,
+    CarouselItemComponent,
   ],
   imports: [
     BrowserModule,
