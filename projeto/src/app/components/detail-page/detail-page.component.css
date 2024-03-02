@@ -1,5 +1,5 @@
 .page {
-    width: 1236px;
-    height: 1567px;
-    padding: 86px 102px;
+    width: fit-content;
+    height: fit-content;
+    padding: 3rem 102px;
 }
