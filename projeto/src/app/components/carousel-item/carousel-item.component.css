@@ -1,0 +1,56 @@
+.carousel-items {
+    width: 1236px;
+    height: 406px;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+    width: 263px;
+    height: 340px;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C1B33;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.old-price {
+    font-size: 12px;
+    font-weight: 500;
+    color: #9C9C9C;
+    text-decoration: line-through;
+    align-self: center;
+}
+
+.new-price {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0C1B33;
+    align-self: center;
+}
+
+.prices {
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.seta-esquerda,
+.seta-direita {
+    width: 50px;
+    height: 50px;
+    padding-top: 9rem;
+}
