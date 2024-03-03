@@ -1,7 +1,7 @@
 <div class="size-selector">
-    <div class="size" id="size-1">PP</div>
-    <div class="size" id="size-2">P</div>
-    <div class="size" id="size-3">M</div>
-    <div class="size" id="size-4">G</div>
-    <div class="size" id="size-5">GG</div>
+    <div class="size" [class.selected]="selectedSize === 'PP'" id="size-1" (click)="selectSize('PP')">PP</div>
+    <div class="size" [class.selected]="selectedSize === 'P'" id="size-2" (click)="selectSize('P')">P</div>
+    <div class="size" [class.selected]="selectedSize === 'M'" id="size-3" (click)="selectSize('M')">M</div>
+    <div class="size" [class.selected]="selectedSize === 'G'" id="size-4" (click)="selectSize('G')">G</div>
+    <div class="size" [class.selected]="selectedSize === 'GG'" id="size-5" (click)="selectSize('GG')">GG</div>
 </div>
