@@ -1,11 +1,14 @@
 <div class="first-details">
     <div class="carousel">
-        <img class="img-1" src="../../../assets/carrossel-img-prod-01.jpg" alt="">
-        <img class="img-2" src="../../../assets/carrossel-img-prod-02.jpg" alt="">
-        <img class="img-3" src="../../../assets/carrossel-img-prod-03.jpg" alt="">
+        <img class="img-1" src="../../../assets/carrossel-img-prod-01.jpg" alt=""
+            (click)="atualizarFoco('../../../assets/carrossel-img-prod-01.jpg')">
+        <img class="img-2" src="../../../assets/carrossel-img-prod-02.jpg" alt=""
+            (click)="atualizarFoco('../../../assets/carrossel-img-prod-02.jpg')">
+        <img class="img-3" src="../../../assets/carrossel-img-prod-03.jpg" alt=""
+            (click)="atualizarFoco('../../../assets/carrossel-img-prod-03.jpg')">
     </div>
     <div class="focus">
-        <img class="img-focus" src="../../../assets/carrossel-img-prod-01.jpg" alt="">
+        <img class="img-focus" [src]="imagemFoco" alt="">
     </div>
     <div class="product-infos">
         <h1>Vestido Intense Manga Longa</h1>
