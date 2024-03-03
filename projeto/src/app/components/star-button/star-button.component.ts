@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-star-button',
@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class StarButtonComponent {
 
+  @Input() isColored: boolean = false;
+
+  toggleColor() {
+    this.isColored = !this.isColored;
+  }
 }

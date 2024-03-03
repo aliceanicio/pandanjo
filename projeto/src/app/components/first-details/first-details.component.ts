@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrl: './first-details.component.css'
 })
 export class FirstDetailsComponent {
+  showFirstDropdown = false;
+  showSecondDropdown = false;
+
+  toggleFirstDropdown() {
+    this.showFirstDropdown = !this.showFirstDropdown;
+  }
+  toggleSecondDropdown() {
+    this.showSecondDropdown = !this.showSecondDropdown;
+  }
+
+  totalRating: number = 0;
+
+  updateRating(rating: number) {
+    this.totalRating = rating;
+  }
 
 }

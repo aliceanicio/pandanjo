@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class SizeButtonComponent {
 
+  selectedSize: string | null = null;
+
+  selectSize(size: string) {
+    this.selectedSize = size;
+  }
+
 }
