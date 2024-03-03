@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-first-details',
   templateUrl: './first-details.component.html',
-  styleUrl: './first-details.component.css'
+  styleUrl: './first-details.component.css',
 })
 export class FirstDetailsComponent {
   showFirstDropdown = false;
@@ -14,12 +14,20 @@ export class FirstDetailsComponent {
   }
   toggleSecondDropdown() {
     this.showSecondDropdown = !this.showSecondDropdown;
-  }
+}
 
   totalRating: number = 0;
 
   updateRating(rating: number) {
     this.totalRating = rating;
+  }
+
+  imagemFoco = '../../../assets/carrossel-img-prod-01.jpg';
+
+  atualizarFoco(imagem: string) {
+    if (this.imagemFoco !== imagem) {
+      this.imagemFoco = imagem;
+    }
   }
 
 }
