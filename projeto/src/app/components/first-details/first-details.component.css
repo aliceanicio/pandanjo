@@ -119,12 +119,22 @@ a {
     align-self: center;
 }
 
+.dropdown-img:hover {
+    cursor: pointer;
+}
+
+
 .first-item,
 .second-item {
     display: flex;
     align-self: center;
     border-bottom: 1px solid #9C9C9C;
     justify-content: space-between;
+}
+
+.dropdown-text {
+    color: #9C9C9C;
+    font-size: 14px;
 }
 
 .payment {

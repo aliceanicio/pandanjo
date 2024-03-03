@@ -47,11 +47,17 @@
         <div class="dropdown">
             <div class="first-item">
                 <p class="payment">Formas de pagamento</p> <img class="dropdown-img"
-                    src="../../../assets/seta-baixo.png" alt="">
+                    src="../../../assets/seta-baixo.png" alt="" (click)="toggleFirstDropdown()">
+            </div>
+            <div class="dropdown-content" *ngIf="showFirstDropdown">
+                <p class="dropdown-text">Cartão de crédito, PIX ou boleto bancário.</p>
             </div>
             <div class="second-item">
                 <p class="payment">Trocas e Devoluções</p> <img class="dropdown-img"
-                    src="../../../assets/seta-baixo.png" alt="">
+                    src="../../../assets/seta-baixo.png" alt="" (click)="toggleSecondDropdown()">
+            </div>
+            <div class="dropdown-content" *ngIf="showSecondDropdown">
+                <p class="dropdown-text">Política de trocas e devoluções.</p>
             </div>
         </div>
 
