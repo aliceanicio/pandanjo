@@ -1,54 +1,79 @@
+.title {
+  font-weight: 400;
+  font-size: 24px;
+  color: #0c1b33;
+  width: fit-content;
+  /* border-bottom: 1px solid #7A306C; */
+}
+
+.title::after {
+  border-bottom: 1px solid #7a306c;
+  position: relative;
+  top: 10%;
+  right: -80%;
+  content: "";
+  display: block;
+  width: 20%;
+}
+
+.other-products {
+  padding-top: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 .carousel-items {
-    display: flex;
-    gap: 1rem;
-    text-align: center;
-    justify-content: center;
-    padding: 1.5rem 0.7rem;
+  display: flex;
+  gap: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  padding: 1.5rem 0;
 }
 
 .item-1,
 .item-2,
 .item-3,
 .item-4 {
-    width: 16.463rem;
-    height: 21.25rem;
+  width: 16.463rem;
+  height: 21.25rem;
 }
 
 .product-title {
-    font-size: 16px;
-    font-weight: 400;
-    color: #0C1B33;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0c1b33;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0;
 }
 
 .old-price {
-    font-size: 12px;
-    font-weight: 500;
-    color: #9C9C9C;
-    text-decoration: line-through;
-    align-self: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #9c9c9c;
+  text-decoration: line-through;
+  align-self: center;
 }
 
 .new-price {
-    font-size: 16px;
-    font-weight: 500;
-    color: #0C1B33;
-    align-self: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0c1b33;
+  align-self: center;
 }
 
 .prices {
-    display: flex;
-    gap: 8px;
-    text-align: center;
-    vertical-align: middle;
-    justify-content: center;
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
 }
 
 .seta-esquerda,
 .seta-direita {
-    width: 1.5rem;
-    height: 1.5rem;
-    padding: 9.9rem 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 9.9rem 0;
 }
