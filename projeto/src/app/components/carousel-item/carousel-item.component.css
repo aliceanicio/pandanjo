@@ -39,6 +39,17 @@
   height: 21.25rem;
 }
 
+.item-1 img,
+.item-2 img,
+.item-3 img,
+.item-4 img,
+.item-1 h3,
+.item-2 h3,
+.item-3 h3,
+.item-4 h3 {
+  cursor: pointer;
+}
+
 .product-title {
   font-size: 16px;
   font-weight: 400;
