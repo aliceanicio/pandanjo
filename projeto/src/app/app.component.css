@@ -1,33 +1,42 @@
 * {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 16px;
-    color: #0C1B33;
-    text-decoration: none;
-    display: inline-block;
-    vertical-align: middle;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  color: #0c1b33;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 a:focus {
-    font-weight: 500;
-    color: #7A306C;
+  font-weight: 500;
+  color: #7a306c;
 }
 
 .path {
-    display: block;
-    width: fit-content;
-    padding-top: 34px;
-    padding-left: 272px;
-    gap: 8px;
+  display: block;
+  width: fit-content;
+  padding-top: 34px;
+  padding-left: 272px;
+  gap: 8px;
 }
 
 .seta-direita {
-    width: 8px;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 8px;
+  width: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 8px;
 }
 
 .active {
-    font-weight: 500;
-    color: #7A306C;
+  font-weight: 500;
+  color: #7a306c;
+}
+
+@media (max-width: 768px) {
+  .path {
+    padding-left: 2%;
+  }
+  .path a {
+    font-size: 12px;
+  }
 }
