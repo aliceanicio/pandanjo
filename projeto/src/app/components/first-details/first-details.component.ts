@@ -16,4 +16,10 @@ export class FirstDetailsComponent {
     this.showSecondDropdown = !this.showSecondDropdown;
   }
 
+  totalRating: number = 0;
+
+  updateRating(rating: number) {
+    this.totalRating = rating;
+  }
+
 }

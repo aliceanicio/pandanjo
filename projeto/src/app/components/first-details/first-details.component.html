@@ -11,11 +11,11 @@
         <h1>Vestido Intense Manga Longa</h1>
         <p id="ref">Ref: 00000000</p>
         <div class="rating">
-            <app-star-button></app-star-button>
-            <app-star-button></app-star-button>
-            <app-star-button></app-star-button>
-            <app-star-button></app-star-button>
-            <app-star-button></app-star-button>
+            <app-star-button [isColored]="totalRating >= 1" (click)="updateRating(1)"></app-star-button>
+            <app-star-button [isColored]="totalRating >= 2" (click)="updateRating(2)"></app-star-button>
+            <app-star-button [isColored]="totalRating >= 3" (click)="updateRating(3)"></app-star-button>
+            <app-star-button [isColored]="totalRating >= 4" (click)="updateRating(4)"></app-star-button>
+            <app-star-button [isColored]="totalRating >= 5" (click)="updateRating(5)"></app-star-button>
             <a href="#">Ver avaliações</a>
         </div>
         <p class="selector">Selecione a cor</p>
