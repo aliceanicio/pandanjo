@@ -1,0 +1,39 @@
+<div class="dropdown">
+  <div class="first-item">
+    <p class="product-details">Detalhes do produto</p>
+    <img
+      class="dropdown-img"
+      src="../../../assets/seta-baixo.png"
+      alt=""
+      (click)="toggleFirstDropdown()"
+    />
+  </div>
+  <div class="dropdown-content" *ngIf="showFirstDropdown">
+    <p class="dropdown-text">
+      O nosso modelo de vestido Intense com certeza é a tendência do momento!
+      Com um corte justo no corpo, ele realça suas curvas de forma leve e
+      sensual. Feito com uma combinação de tecidos de alta qualidade, incluindo
+      lycra, poliéster e algodão, o vestido Intense proporciona um conforto
+      excepcional. O design sem estampa adiciona um toque minimalista e versátil
+      ao seu look, perfeito para ocasiões casuais. Seja para um encontro
+      descontraído ou uma tarde entre amigos, este vestido é a escolha certa
+      para um estilo sensual e sofisticado ao mesmo tempo.
+    </p>
+  </div>
+  <div class="second-item">
+    <p class="payment">Características do Produto</p>
+    <img
+      class="dropdown-img"
+      src="../../../assets/seta-baixo.png"
+      alt=""
+      (click)="toggleSecondDropdown()"
+    />
+  </div>
+  <div class="dropdown-content" *ngIf="showSecondDropdown">
+    <p class="dropdown-text">
+      Feito com lycra, poliéster e algodão de alta qualidade, proporciona
+      conforto excepcional. Seu design minimalista e versátil é perfeito para
+      ocasiões casuais, garantindo um estilo sensual e sofisticado.
+    </p>
+  </div>
+</div>

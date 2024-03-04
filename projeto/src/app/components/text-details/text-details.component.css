@@ -30,7 +30,6 @@
 
 @media (max-width: 768px) {
   .text-details {
-    width: fit-content;
-    max-width: 90vw;
+    display: none;
   }
 }

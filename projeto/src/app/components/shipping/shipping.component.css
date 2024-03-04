@@ -1,0 +1,40 @@
+@media (min-width: 769px) {
+  .shipping-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .shipping-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    max-width: 50vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .shipping-img {
+    width: 2.5rem;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #0c1b33;
+    padding-left: 10%;
+  }
+
+  .title,
+  .subtitle {
+    margin: 0;
+  }
+  .title {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .subtitle {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+}

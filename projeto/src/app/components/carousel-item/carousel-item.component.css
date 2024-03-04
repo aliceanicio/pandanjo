@@ -111,4 +111,18 @@
     max-width: 80vw;
     overflow: hidden;
   }
+  .title {
+    width: fit-content;
+    max-width: 80vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .title::after {
+    width: 35%;
+    right: -65%;
+  }
+  .title::before {
+    width: 35%;
+    right: 0%;
+  }
 }
