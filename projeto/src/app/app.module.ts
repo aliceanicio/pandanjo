@@ -16,6 +16,7 @@ import { OffTagComponent } from './components/off-tag/off-tag.component';
 import { CarouselItemComponent } from './components/carousel-item/carousel-item.component';
 import { SizeButtonComponent } from './components/size-button/size-button.component';
 import { ColorButtonComponent } from './components/color-button/color-button.component';
+import { DropdownToggleComponent } from './components/dropdown-toggle/dropdown-toggle.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +34,10 @@ import { ColorButtonComponent } from './components/color-button/color-button.com
     CarouselItemComponent,
     SizeButtonComponent,
     ColorButtonComponent,
+    DropdownToggleComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

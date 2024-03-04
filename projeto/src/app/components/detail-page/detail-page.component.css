@@ -1,5 +1,15 @@
 .page {
-    width: fit-content;
-    height: fit-content;
-    padding: 1.5rem 102px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-top: 1.2rem;
+  }
 }
