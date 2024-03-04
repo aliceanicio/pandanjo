@@ -17,6 +17,7 @@ import { CarouselItemComponent } from './components/carousel-item/carousel-item.
 import { SizeButtonComponent } from './components/size-button/size-button.component';
 import { ColorButtonComponent } from './components/color-button/color-button.component';
 import { DropdownToggleComponent } from './components/dropdown-toggle/dropdown-toggle.component';
+import { SeeProductButtonComponent } from './components/see-product-button/see-product-button.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { DropdownToggleComponent } from './components/dropdown-toggle/dropdown-t
     SizeButtonComponent,
     ColorButtonComponent,
     DropdownToggleComponent,
+    SeeProductButtonComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
