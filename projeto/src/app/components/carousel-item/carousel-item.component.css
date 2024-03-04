@@ -108,6 +108,12 @@
   cursor: pointer;
 }
 
+@media (min-width: 769px) {
+  .product-buttons {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .other-products {
     max-width: 80vw;
