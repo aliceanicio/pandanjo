@@ -3,6 +3,8 @@
   font-size: 24px;
   color: #0c1b33;
   width: fit-content;
+  padding-left: 25vw;
+  padding-right: 25vw;
 }
 
 .title::before {
